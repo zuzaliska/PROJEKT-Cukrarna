@@ -2,6 +2,74 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+body {
+	margin: 0;
+	padding: 0;
+	color: #242424;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+body img {
+	border-radius: 5px;
+}
+.content {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	width: 57%;
+	padding: 30px 0;
+}
+
+.menu ul {
+	display: flex;
+}
+
+.menu ul li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.menu ul li a {
+	color: #242424;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.onlineOrder:hover {
+	background-color: #f195b2;
+	border-radius: 20px;
+}
+
+.welcome {
+	background-color: rgb(154, 198, 249);
+	padding: 80px 0;
+}
+
+.introducing {
+	display: flex;
+}
+
+.todayOffer {
+	background-color: #f0f0f0;
+}
+
+.todayOfferCakes {
+	display: flex;
+}
+
+.bakingApproach {
+	display: flex;
+}
 
 /*
 	Poznámky:
@@ -26,10 +94,6 @@ html { box-sizing: border-box; }
 	#242424		(skoro) černá - na běžný text
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
+
+	font-family: 'Lora', serif;
 */
-
-
-body {
-	margin: 0;
-}
-
