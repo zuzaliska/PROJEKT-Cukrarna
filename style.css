@@ -2,13 +2,26 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-body {
+* {
 	margin: 0;
 	padding: 0;
+}
+
+body {
 	color: #242424;
 	font-family: 'Lora', serif;
 	font-size: 18px;
 	line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+}
+h1 {
+	color: white;
+	font-size: 52px;
 }
 
 body img {
@@ -45,6 +58,26 @@ body img {
 	padding: 10px 15px;
 }
 
+.hero {
+	background-image: url("images/cupcake.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.heroText {
+	text-align: left;
+}
+
+.hero p {
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+	margin-top: 60px;
+}
+
+
+
 .onlineOrder:hover {
 	background-color: #f195b2;
 	border-radius: 20px;
@@ -65,6 +98,15 @@ body img {
 
 .todayOfferCakes {
 	display: flex;
+	justify-content: space-between;
+}
+
+.cake {
+text-align: center;
+}
+
+.cake img {
+	width: 60%;
 }
 
 .bakingApproach {
